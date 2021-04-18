@@ -1,0 +1,121 @@
+*{
+    margin:0;
+}
+
+/*==FONTS==*/
+
+@font-face {
+    font-family: 'saira_condensedregular';
+    src: url('fonts/sairacondensed-regular-webfont.woff2') format('woff2'), url('fonts/sairacondensed-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'saira_condensed_condensedbold';
+    src: url('fonts/sairacondensed-bold-webfont.woff2') format('woff2'), url('fonts/sairacondensed-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+h1{
+    font-family: 'saira_condensed_condensedbold';
+    letter-spacing: 20px;
+    color:white;
+    font-size:10rem;
+}
+h2{
+    font-family: 'saira_condensed_condensedbold';
+    letter-spacing: 5px;
+    color:white;
+    font-size:5rem;
+}
+
+h3{
+    font-family: 'saira_condensed_condensedbold';
+    font-size:4rem;
+    letter-spacing: 5px;
+    
+}
+
+h4{
+    font-family: 'saira_condensed_condensedbold';
+    letter-spacing: 5px;
+    color:white;
+    font-size:3rem;
+    line-height: 1.5;
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    font-family: 'saira_condensedregular';
+    font-size:1.5rem;
+    margin-top:3rem;
+}
+p{
+    color:white;
+    font-family: 'saira_condensedregular';
+    font-size: 1.5rem;
+}
+header{
+    height:100vh;
+    display:flex;
+}
+.row{
+    display: flex;
+    padding:2rem;
+}
+.row div{
+    width:50%;
+    margin-left:2rem;
+}
+.mijn-foto{
+    background-image: url("../img/IMG_4216.jpg");
+    height:100%;
+    width:50%;
+    background-size: cover;
+    background-position: center;
+}
+.bluebckg{
+    background-color:#6DA6B1;
+    
+}
+.half{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height:100%;
+    width:50%;
+}
+.cv-title{
+    margin-left:6rem;
+}
+.name{
+    margin-left:-10rem;
+}
+.last{
+    margin-left:5rem;
+}
+.gsmemail{
+    margin-left:6rem;
+}
+.programmas{
+    display: flex;
+    flex-wrap: wrap;
+}
+.programmas img{
+    margin:2rem;
+}
+.vrijetijd{
+    padding:2rem;
+}
+.hobby-pic{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top:3rem;
+}
